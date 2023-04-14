@@ -1,9 +1,12 @@
+import 'package:arquivo_morto/screens/Arquivo.dart';
+import 'package:arquivo_morto/screens/cadastrar.dart';
 import 'package:arquivo_morto/screens/login.dart';
-import 'package:arquivo_morto/screens/my_home_page.dart';
+import 'package:arquivo_morto/services/arquivo_service.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
+
 }
 
 class MyApp extends StatelessWidget {

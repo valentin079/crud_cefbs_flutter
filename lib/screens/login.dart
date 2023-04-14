@@ -1,4 +1,5 @@
-import 'package:arquivo_morto/screens/my_home_page.dart';
+import 'package:arquivo_morto/screens/Arquivo.dart';
+import 'package:arquivo_morto/services/arquivo_service.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -51,7 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     onTap: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => MyHomePage()));
+                          MaterialPageRoute(builder: (context) => TelaArquivos()));
                     },
                   ),
                 ),
